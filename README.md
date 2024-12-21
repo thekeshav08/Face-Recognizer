@@ -4,7 +4,7 @@ Its a basic face recognizer application which can identify the face(s) of the pe
 I have used pre trained model Keras-OpenFace which is an open source Keras implementation of the OpenFace (Originally Torch implemented)
 The pretrained model that I have used is by Victor Sy Wang's implementation and was loaded using his code: https://github.com/iwantooxxoox/Keras-OpenFace.
 
-![Real Time Face Detection Deep Learning](https://github.com/sumantrajoshi/Face-recognition-using-deep-learning/blob/master/pictures/Real%20Time%20Face%20Detection%20Deep%20Learning.jpg)
+
 
 # One Shot Learning
 In one shot learning, only one image per person is stored in the database which is passed through the neural network to generate an embedding vector. This embedding vector is compared with the vector generated for the person who has to be recognized. If there exist similarities between the two vectors then the system recognizes that person, else that person is not there in the database. This can be understood by below picture.
@@ -17,11 +17,8 @@ Here we are using OpenFace pre-trained model for facial recognition. Without goi
 ![Triplet Loss Function](https://github.com/sumantrajoshi/Face-recognition-using-deep-learning/blob/master/pictures/Triplet%20Loss%20Function.JPG)
 
 
-## Video Link
-You can view the application demonstration on Youtube at following link: https://youtu.be/aUYtG2aEKSY
 
-## Medium Article
-To better understand the face recognition using deep learning, you can read my Medium article at : https://medium.com/@sumantrajoshi/face-recognizer-application-using-a-deep-learning-model-python-and-keras-2873e9aa6ab3
+
 
 
 
